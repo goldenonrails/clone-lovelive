@@ -1,7 +1,9 @@
 /* Font-Family */
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* E4007F */
+/* Main Header */
 *{
 	margin: 0;
 	padding: 0;
@@ -9,13 +11,13 @@
 
 .header{
 	width: 100%;
-	height: 62px;
+	height: 85px;
 	margin: 0 auto;
 	border-top: 8px solid #E4007F;
 }
 
 .header_hero{
-	width: 79%;
+	width: 83%;
 	height: 100%;
 	padding-top: 13px;
 	margin: 0 auto;
@@ -87,4 +89,130 @@
 	color: #424242;
 	font-style: all;
 	font-weight: 800;
+}
+
+
+
+
+
+
+
+/* Class Nav of the Menu */
+.nav_contents{
+	width: 100%;
+	height: 100%;
+}
+
+.nav_hero{
+	width: 81%;
+	margin: 0 auto;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	opacity: 0.9;
+	color: #424242;
+	font-style: all;
+	font-weight: 800;
+}
+
+.nav_colapse{
+	height: 100vh;
+}
+
+.nav_colapse .nav_item{
+	list-style: none;
+	margin-top: 5%;
+}
+
+.nav_colapse .nav_title{
+	text-decoration: none;
+	color: #424242;
+	font-size: 2rem;
+}
+
+.nav_colapse .nav_title span{
+	font-size: 0.8rem;
+	margin-left: 19px;
+}
+
+.nav_sub{
+	margin-top: 8%;
+}
+
+.nav_sub li{
+	list-style: none;
+	padding: 16px;
+	margin-top: 3px;
+}
+
+.nav_sub a {
+	font-size: 1.2rem;
+	text-decoration: none;
+	color: #424242;
+}
+
+.nav_sub a span{
+	font-size: 0.8rem;
+}
+
+/* Clickable menu section */
+
+.navanime{
+	width: 100%;
+	margin: 0 auto;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	padding-bottom: 95px;
+}
+
+.group_list{
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.group_list .group_item{
+	text-decoration: none;
+	width: 98.5%;
+	height: 86%;
+	border-radius: 6px;
+	margin: 5px;
+}
+
+.group_list .group_item img{
+	max-width: 100%;
+	height: auto;
+}
+
+.group_list .liela{
+	background-color: #FF33FF;
+}
+
+.group_list .liela:hover{
+	opacity: 0.85;
+}
+
+.group_list .nijigasaki{
+	background-color: #FF9933;
+}
+
+.group_list .nijigasaki:hover{
+	opacity: 0.85;
+}
+
+
+.group_list .sunshine{
+	background-color: #3399FF;
+}
+
+.group_list .sunshine:hover{
+	opacity: 0.85;
+}
+
+
+.group_list .musas{
+	background-color: #e60073;
+}
+
+.group_list .musas:hover{
+	opacity: 0.85;
 }
