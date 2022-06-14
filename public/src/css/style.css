@@ -1,14 +1,10 @@
-/* Config. of the carousel */
+/* Font-Family */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
 /* E4007F */
 *{
 	margin: 0;
 	padding: 0;
-}
-
-span{
-	width: 12px;
-	height: 3px;
-	background-color: #424242;
 }
 
 .header{
@@ -19,7 +15,7 @@ span{
 }
 
 .header_hero{
-	width: 85%;
+	width: 79%;
 	height: 100%;
 	padding-top: 13px;
 	margin: 0 auto;
@@ -60,5 +56,35 @@ span{
 	margin-right: 25px;
 }
 
-.header_aline .header_menu{
+.header_menu{
+	width: 50px;
+}
+
+.header_menu .navbtn_box{
+	border: none;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 7px;
+	cursor: pointer;
+}
+
+.header_menu .navbtn_nav{
+	display: grid;
+	align-items: center;
+}
+.header_menu .navbtn_nav span{
+	display: grid;
+	width: 100%;
+	height: 3px;
+	margin: 3px;
+	background-color: #424242;
+}
+
+.header_menu .navbtn_text{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 1rem;
+	color: #424242;
+	font-style: all;
+	font-weight: 800;
 }
